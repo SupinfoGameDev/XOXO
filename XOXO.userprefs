@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="XOXO_Droid\Views\GameView.cs">
+    <Files>
+      <File FileName="XOXO_Droid\Resources\values\Styles.xml" Line="1" Column="1" />
+      <File FileName="XOXO_Droid\Views\SplashscreenView.cs" Line="1" Column="1" />
+      <File FileName="XOXO_Droid\Views\MenuView.cs" Line="1" Column="1" />
+      <File FileName="XOXO_Droid\Views\GameView.cs" Line="1" Column="1" />
+      <File FileName="XOXO_Droid\Resources\drawable\transparentButton.xml" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.XOXO__Droid AndroidDeviceId-Debug="0009aed51a682f" MonoForAntroid.PreferredDevice="Nexus 4" />
+</Properties>
