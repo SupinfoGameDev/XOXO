@@ -1,12 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.SelectDevice" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="XOXO_Droid\Views\GameView.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.048cd0908291cb80" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="XOXO_Droid\Activities\SplashscreenActivity.cs">
     <Files>
-      <File FileName="XOXO_Droid\Resources\values\Styles.xml" Line="1" Column="1" />
-      <File FileName="XOXO_Droid\Views\SplashscreenView.cs" Line="1" Column="1" />
-      <File FileName="XOXO_Droid\Views\MenuView.cs" Line="1" Column="1" />
-      <File FileName="XOXO_Droid\Views\GameView.cs" Line="1" Column="1" />
+      <File FileName="XOXO_Droid\Resources\values\Styles.xml" Line="43" Column="43" />
+      <File FileName="XOXO_Droid\Activities\SplashscreenActivity.cs" Line="3" Column="3" />
+      <File FileName="XOXO_Droid\Activities\MenuActivity.cs" Line="1" Column="1" />
+      <File FileName="XOXO_Droid\Activities\GameActvity.cs" Line="34" Column="34" />
       <File FileName="XOXO_Droid\Resources\drawable\transparentButton.xml" Line="1" Column="1" />
+      <File FileName="XOXO_Droid\Activities\SettingsActivity.cs" Line="1" Column="1" />
+      <File FileName="XOXO_Droid\Properties\AndroidManifest.xml" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

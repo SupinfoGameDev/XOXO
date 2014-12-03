@@ -1,4 +1,4 @@
-XOXO_Droid.SplashscreenView;xoxo_droid.SplashscreenView
-XOXO_Droid.MenuView;xoxo_droid.MenuView
-XOXO_Droid.SettingsView;xoxo_droid.SettingsView
-XOXO_Droid.GameView;xoxo_droid.GameView
+XOXO_Droid.GameActivity;xoxo_droid.GameActivity
+XOXO_Droid.MenuActivity;xoxo_droid.MenuActivity
+XOXO_Droid.SettingsActivity;xoxo_droid.SettingsActivity
+XOXO_Droid.SplashscreenActivity;xoxo_droid.SplashscreenActivity
