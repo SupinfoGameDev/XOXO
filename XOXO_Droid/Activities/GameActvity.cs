@@ -17,13 +17,14 @@ namespace XOXO_Droid
 	[Activity (Label = "GameActivity")]			
 	public class GameActivity : Activity
 	{
+
+
+
+
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
 			SetContentView (Resource.Layout.Game);
-
-			var drawCross  = Resources.GetDrawable(Resource.Drawable.circle);
-			var drawCircle = Resources.GetDrawable(Resource.Drawable.cross);
 
 			List<Button> buttonList = new List<Button>();
 			buttonList.Add (FindViewById<Button> (Resource.Id.Button1));
@@ -35,46 +36,41 @@ namespace XOXO_Droid
 			buttonList.Add (FindViewById<Button> (Resource.Id.Button7));
 			buttonList.Add (FindViewById<Button> (Resource.Id.Button8));
 			buttonList.Add (FindViewById<Button> (Resource.Id.Button9));
+			PlayerTurn (buttonList);
+		}
 
+
+		public void PlayerTurn(List<Button> buttonList)
+		{
 			foreach (Button button in buttonList) {
 				button.Click += (object sender, EventArgs e) => {
 					if(Turn == false)	{
+						var drawCross  = Resources.GetDrawable(Resource.Drawable.cross);
 						button.SetBackgroundDrawable(drawCross);
 					}
 					else {
+						var drawCircle = Resources.GetDrawable(Resource.Drawable.circle);
 						button.SetBackgroundDrawable(drawCircle);
 					}
-					turn = !turn;
+					_turn = !_turn;
 				};			
 			}
-		}
-
-		/*****
-		public static void PlayerTurn()
-		{
-			if(Turn == false) {
-				case1.SetBackgroundDrawable(drawCross);
-			}
-			else {
-				case1.SetBackgroundDrawable(drawCircle);
-			}
-			turn = !turn;
 		}	
-		*****/
+
 
 		public override void OnBackPressed ()
 		{
 			//base.OnBackPressed ();
 		}
 
-		private bool turn = false;
+		private bool _turn = false;
 		public bool Turn {
-			get{ return turn; }
+			get{ return _turn; }
 			set 
 			{
-				if(value != turn)
+				if(value != _turn)
 				{
-					turn = value;
+					_turn = value;
 				}
 			}
 		}
