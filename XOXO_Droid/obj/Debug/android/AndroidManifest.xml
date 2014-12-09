@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="XOXO_Droid.XOXO_Droid">
-  <uses-sdk android:minSdkVersion="21" />
+  <uses-sdk android:minSdkVersion="18" />
   <application android:label="XOXO_Droid" android:name="mono.android.app.Application" android:debuggable="true">
     <activity android:label="GameActivity" android:name="xoxo_droid.GameActivity" />
     <activity android:label="MenuView" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" android:name="xoxo_droid.MenuActivity" />
