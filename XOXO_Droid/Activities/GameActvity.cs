@@ -60,14 +60,31 @@ namespace XOXO_Droid
 						button.SetBackgroundDrawable(drawCross);
 						button.Enabled = false;
 						grid[x, y] = 1;
+						var result = CheckWin();
+						if (result) {
+							AlertDialog.Builder builder = new AlertDialog.Builder(this);
+							builder.SetTitle("You Win");
+							builder.SetMessage("X player wins!");
+							builder.SetCancelable(false);
+							builder.SetPositiveButton("Continue", delegate { Finish(); });
+							builder.Show();
+						}
 					}
 					else {
 						var drawCircle = Resources.GetDrawable(Resource.Drawable.circle);
 						button.SetBackgroundDrawable(drawCircle);
 						button.Enabled = false;
 						grid[x, y] = 2;
+						var result = CheckWin();
+						if (result) {
+							AlertDialog.Builder builder = new AlertDialog.Builder(this);
+							builder.SetTitle("You Win");
+							builder.SetMessage("O player wins!");
+							builder.SetCancelable(false);
+							builder.SetPositiveButton("Continue", delegate { Finish(); });
+							builder.Show();
+						}
 					}
-					var result = CheckWin();
 					_turn = !_turn;
 				};	
 				count++;
@@ -96,21 +113,99 @@ namespace XOXO_Droid
 			}
 
 		}
-		public int CheckWin()
+
+		public bool CheckWin()
 		{
-			int victory = 0;
+			int Xcount = 0;
+			int Ocount = 0;
 			for(int i = 0; i < 3; i++)
 			{
 				for (int j = 0; j < 3; j++)
 				{
-					victory += grid [i, j];
-					if (victory == 3 || victory == 6) {
-						return victory;
-					}
 
-				}        
+					if(grid[i,j] == 1)
+					{
+						Xcount++;
+						if (Xcount == 3) {
+							return true;
+						}
+					}
+					else if (grid[i,j] == 2)
+					{
+						Ocount++;
+						if (Ocount == 3)
+						{
+							return true;
+						}
+					}
+				}
+				Xcount = 0;
+				Ocount = 0;
 			}
-			return victory;
+
+			for(int i = 0; i < 3; i++)
+			{
+				for (int j = 0; j < 3; j++)
+				{
+
+					if(grid[j,i] == 1)
+					{
+						Xcount++;
+						if (Xcount == 3) {
+							return true;
+						}
+					}
+					else if (grid[j,i] == 2)
+					{
+						Ocount++;
+						if (Ocount == 3)
+						{
+							return true;
+						}
+					}
+				}
+				Xcount = 0;
+				Ocount = 0;
+			}
+
+			for (int i = 0; i < 3; i++) 
+			{
+				if(grid[i,i] == 1)
+				{
+					Xcount++;
+					if (Xcount == 3) {
+						return true;
+					}
+				}
+				else if (grid[i,i] == 2)
+				{
+					Ocount++;
+					if (Ocount == 3)
+					{
+						return true;
+					}
+				}
+			}
+
+			Xcount = 0;
+			Ocount = 0;
+			int y = 2;
+			for (int i = 0; i < 3; i++) 
+			{
+				if (grid [i, y] == 1) {
+					Xcount++;
+					if (Xcount == 3) {
+						return true;
+					}
+				} else if (grid [i, y] == 2) {
+					Ocount++;
+					if (Ocount == 3) {
+						return true;
+					}
+				}
+				y--;
+			}
+			return false;
 		}
 	}
 }
