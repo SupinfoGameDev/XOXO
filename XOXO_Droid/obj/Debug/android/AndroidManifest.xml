@@ -1,16 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="XOXO_Droid.XOXO_Droid">
-  <uses-sdk android:minSdkVersion="18" />
+  <uses-sdk android:minSdkVersion="21" />
   <application android:label="XOXO_Droid" android:name="mono.android.app.Application" android:debuggable="true">
-    <activity android:label="GameActivity" android:name="xoxo_droid.GameActivity" />
+    <activity android:label="GameActivity" android:screenOrientation="portrait" android:name="xoxo_droid.GameActivity" />
     <activity android:label="MenuView" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" android:name="xoxo_droid.MenuActivity" />
     <activity android:icon="@drawable/icon" android:label="Settings" android:screenOrientation="portrait" android:name="xoxo_droid.SettingsActivity" />
-    <activity android:icon="@drawable/xoxo" android:label="XOXO" android:noHistory="true" android:theme="@style/Theme.Splash" android:name="xoxo_droid.SplashscreenActivity">
-      <intent-filter>
-        <action android:name="android.intent.action.MAIN" />
-        <category android:name="android.intent.category.LAUNCHER" />
-      </intent-filter>
-    </activity>
+    <activity android:icon="@drawable/xoxo" android:label="XOXO" android:noHistory="true" android:theme="@style/Theme.Splash" android:name="xoxo_droid.SplashscreenActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="XOXO_Droid.XOXO_Droid.mono.MonoRuntimeProvider.__mono_init__" />
     <receiver android:name="mono.android.Seppuku">
       <intent-filter>
@@ -18,6 +13,12 @@
         <category android:name="mono.android.intent.category.SEPPUKU.XOXO_Droid.XOXO_Droid" />
       </intent-filter>
     </receiver>
+    <activity android:icon="@drawable/xoxo" android:label="XOXO" android:noHistory="true" android:theme="@style/Mono.Android.Theme.Splash" android:name="xoxo_droid.xoxo_droid.TrialSplashScreen">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
   </application>
   <uses-permission android:name="android.permission.RECORD_AUDIO" />
   <uses-permission android:name="android.permission.INTERNET" />
