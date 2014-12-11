@@ -17,11 +17,10 @@ public final class R {
         public static final int cross=0x7f020003;
         public static final int grid=0x7f020004;
         public static final int icon=0x7f020005;
-        public static final int monoandroidsplash=0x7f020006;
-        public static final int settings_icon=0x7f020007;
-        public static final int splashscreen=0x7f020008;
-        public static final int transparentbutton=0x7f020009;
-        public static final int xoxo=0x7f02000a;
+        public static final int settings_icon=0x7f020006;
+        public static final int splashscreen=0x7f020007;
+        public static final int transparentbutton=0x7f020008;
+        public static final int xoxo=0x7f020009;
     }
     public static final class id {
         public static final int About=0x7f07000e;
@@ -54,7 +53,6 @@ public final class R {
         public static final int hello=0x7f050000;
     }
     public static final class style {
-        public static final int Mono_Android_Theme_Splash=0x7f060001;
         public static final int Theme_Splash=0x7f060000;
     }
 }
