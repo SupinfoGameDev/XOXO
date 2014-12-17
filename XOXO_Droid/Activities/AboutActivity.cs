@@ -19,7 +19,7 @@ namespace XOXO_Droid
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
-
+			SetContentView (Resource.Layout.About);
 			// Create your application here
 		}
 	}

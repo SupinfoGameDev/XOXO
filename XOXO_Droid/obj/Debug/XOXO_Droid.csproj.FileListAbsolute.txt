@@ -52,3 +52,5 @@ C:\Users\Massinissa\Documents\Xamarin\XOXO\XOXO_Droid\obj\Debug\res\drawable\cro
 C:\Users\Massinissa\Documents\Xamarin\XOXO\XOXO_Droid\obj\Debug\res\drawable\circle.png
 C:\Users\Massinissa\Documents\Xamarin\XOXO\XOXO_Droid\obj\Debug\R.cs.flag
 C:\Users\Massinissa\Documents\Xamarin\XOXO\XOXO_Droid\obj\Debug\uploadflags.txt
+D:\Courses\Labo Game Dev\XOXO\XOXO_Droid\obj\Debug\XOXO_Droid.csprojResolveAssemblyReference.cache
+D:\Courses\Labo Game Dev\XOXO\XOXO_Droid\obj\Debug\XOXO_Droid.dll
