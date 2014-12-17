@@ -25,6 +25,7 @@ C:\Users\Massinissa\Documents\Xamarin\XOXO\XOXO_Droid\obj\Debug\res\drawable\cro
 C:\Users\Massinissa\Documents\Xamarin\XOXO\XOXO_Droid\obj\Debug\res\drawable\circle.png
 C:\Users\Massinissa\Documents\Xamarin\XOXO\XOXO_Droid\obj\Debug\R.cs.flag
 C:\Users\Massinissa\Documents\Xamarin\XOXO\XOXO_Droid\obj\Debug\uploadflags.txt
+<<<<<<< HEAD
 C:\Users\aiems_000\Documents\Projects\XOXO\XOXO_Droid\bin\Debug\XOXO_Droid.dll
 C:\Users\aiems_000\Documents\Projects\XOXO\XOXO_Droid\bin\Debug\XOXO_Droid.pdb
 C:\Users\aiems_000\Documents\Projects\XOXO\XOXO_Droid\bin\Debug\XOXO_Droid.dll.mdb
@@ -55,3 +56,7 @@ C:\Users\aiems_000\Documents\Projects\XOXO\XOXO_Droid\obj\Debug\res\drawable\cir
 C:\Users\aiems_000\Documents\Projects\XOXO\XOXO_Droid\obj\Debug\res\layout\about.xml
 C:\Users\aiems_000\Documents\Projects\XOXO\XOXO_Droid\obj\Debug\R.cs.flag
 C:\Users\aiems_000\Documents\Projects\XOXO\XOXO_Droid\obj\Debug\uploadflags.txt
+=======
+D:\Courses\Labo Game Dev\XOXO\XOXO_Droid\obj\Debug\XOXO_Droid.csprojResolveAssemblyReference.cache
+D:\Courses\Labo Game Dev\XOXO\XOXO_Droid\obj\Debug\XOXO_Droid.dll
+>>>>>>> 8740a7198027af371359f9f0b0c31aac5b5245d6

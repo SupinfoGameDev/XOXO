@@ -14,7 +14,11 @@
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
     <AssemblyName>XOXO_Droid</AssemblyName>
+<<<<<<< HEAD
     <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+=======
+    <TargetFrameworkVersion>v4.4</TargetFrameworkVersion>
+>>>>>>> 8740a7198027af371359f9f0b0c31aac5b5245d6
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
