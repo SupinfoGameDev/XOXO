@@ -36,6 +36,24 @@ namespace XOXO_Droid
 				StartActivity(typeof(SettingsActivity));
 			};
 
+			var browser = new Dolphins.Salaam.SalaamBrowser();
+
+			Button multi = FindViewById<Button> (Resource.Id.Multi);
+			multi.Click += (object sender, EventArgs e) => {
+				var service = new Dolphins.Salaam.SalaamService("_XOXO._tcp","XOXO", 2000);
+				service.Register();
+				browser.Start("_XOXO._tcp");
+			};
+
+			browser.ClientAppeared += (object sender, Dolphins.Salaam.SalaamClientEventArgs e) => {
+				AlertDialog.Builder builder = new AlertDialog.Builder(this);
+				builder.SetTitle("YAY");
+				builder.SetMessage("Client apparus!");
+				builder.SetCancelable(false);
+				builder.SetPositiveButton("Continue", delegate { Finish(); });
+				builder.Show();
+			};
+
 			Button play = FindViewById<Button> (Resource.Id.Play);
 			play.Click += (object sender, EventArgs e) => {
 				StartActivity(typeof(GameActivity));

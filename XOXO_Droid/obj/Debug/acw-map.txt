@@ -2,3 +2,4 @@ XOXO_Droid.GameActivity;xoxo_droid.GameActivity
 XOXO_Droid.MenuActivity;xoxo_droid.MenuActivity
 XOXO_Droid.SettingsActivity;xoxo_droid.SettingsActivity
 XOXO_Droid.SplashscreenActivity;xoxo_droid.SplashscreenActivity
+XOXO_Droid.AboutActivity;xoxo_droid.AboutActivity

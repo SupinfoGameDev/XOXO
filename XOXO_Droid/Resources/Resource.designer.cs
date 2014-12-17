@@ -63,16 +63,19 @@ namespace XOXO_Droid
 			public const int Icon = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int settings_icon = 2130837510;
+			public const int monoandroidsplash = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int splashscreen = 2130837511;
+			public const int settings_icon = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int transparentButton = 2130837512;
+			public const int splashscreen = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int xoxo = 2130837513;
+			public const int transparentButton = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int xoxo = 2130837514;
 			
 			static Drawable()
 			{
@@ -87,8 +90,8 @@ namespace XOXO_Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f07000e
-			public const int About = 2131165198;
+			// aapt resource value: 0x7f07000f
+			public const int About = 2131165199;
 			
 			// aapt resource value: 0x7f070002
 			public const int Button1 = 2131165186;
@@ -117,14 +120,17 @@ namespace XOXO_Droid
 			// aapt resource value: 0x7f07000a
 			public const int Button9 = 2131165194;
 			
-			// aapt resource value: 0x7f07000f
-			public const int Music = 2131165199;
+			// aapt resource value: 0x7f07000d
+			public const int Multi = 2131165197;
+			
+			// aapt resource value: 0x7f070010
+			public const int Music = 2131165200;
 			
 			// aapt resource value: 0x7f07000c
 			public const int Play = 2131165196;
 			
-			// aapt resource value: 0x7f07000d
-			public const int Settings = 2131165197;
+			// aapt resource value: 0x7f07000e
+			public const int Settings = 2131165198;
 			
 			// aapt resource value: 0x7f070001
 			public const int gridView1 = 2131165185;
@@ -149,13 +155,16 @@ namespace XOXO_Droid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Game = 2130903040;
+			public const int About = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Menu = 2130903041;
+			public const int Game = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Settings = 2130903042;
+			public const int Menu = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int Settings = 2130903043;
 			
 			static Layout()
 			{
@@ -204,6 +213,9 @@ namespace XOXO_Droid
 		
 		public partial class Style
 		{
+			
+			// aapt resource value: 0x7f060001
+			public const int Mono_Android_Theme_Splash = 2131099649;
 			
 			// aapt resource value: 0x7f060000
 			public const int Theme_Splash = 2131099648;

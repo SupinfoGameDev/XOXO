@@ -7,12 +7,18 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{369B115E-308B-496E-A94D-E4454467CDF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{369B115E-308B-496E-A94D-E4454467CDF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{369B115E-308B-496E-A94D-E4454467CDF2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{369B115E-308B-496E-A94D-E4454467CDF2}.Debug|x86.Build.0 = Debug|Any CPU
 		{369B115E-308B-496E-A94D-E4454467CDF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{369B115E-308B-496E-A94D-E4454467CDF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{369B115E-308B-496E-A94D-E4454467CDF2}.Release|x86.ActiveCfg = Release|Any CPU
+		{369B115E-308B-496E-A94D-E4454467CDF2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = XOXO_Droid\XOXO_Droid.csproj

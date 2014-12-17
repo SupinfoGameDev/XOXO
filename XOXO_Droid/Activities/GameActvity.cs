@@ -23,7 +23,6 @@ namespace XOXO_Droid
 			base.OnCreate (bundle);
 			SetContentView (Resource.Layout.Game);
 
-
 			coord.Add (new XYCoordonates (0,0));
 			coord.Add (new XYCoordonates (0,1));
 			coord.Add (new XYCoordonates (0,2));

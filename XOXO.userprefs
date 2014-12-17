@@ -1,18 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.4df15ed441076f1d" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.SelectDevice" />
   <MonoDevelop.Ide.Workbench ActiveDocument="XOXO_Droid\Activities\GameActvity.cs">
     <Files>
-      <File FileName="XOXO_Droid\Resources\values\Styles.xml" Line="1" Column="1" />
-      <File FileName="XOXO_Droid\Activities\SplashscreenActivity.cs" Line="1" Column="1" />
-      <File FileName="XOXO_Droid\Activities\MenuActivity.cs" Line="1" Column="1" />
-      <File FileName="XOXO_Droid\Activities\GameActvity.cs" Line="4" Column="4" />
-      <File FileName="XOXO_Droid\Resources\drawable\transparentButton.xml" Line="1" Column="1" />
-      <File FileName="XOXO_Droid\Activities\SettingsActivity.cs" Line="1" Column="1" />
-      <File FileName="XOXO_Droid\Properties\AndroidManifest.xml" Line="1" Column="1" />
+      <File FileName="XOXO_Droid\Activities\GameActvity.cs" Line="22" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.XOXO__Droid MonoForAntroid.PreferredDevice="Nexus 4" />
 </Properties>

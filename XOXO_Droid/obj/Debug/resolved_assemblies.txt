@@ -1,1 +1,2 @@
-C:\Users\Massinissa\Documents\Xamarin\XOXO\XOXO_Droid\bin\Debug\XOXO_Droid.dll
+C:\Users\aiems_000\Documents\Projects\XOXO\XOXO_Droid\bin\Debug\XOXO_Droid.dll
+C:\Users\aiems_000\Documents\Projects\XOXO\XOXO_Droid\Dolphins.Salaam.dll

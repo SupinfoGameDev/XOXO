@@ -29,6 +29,14 @@
             android:layout_marginLeft="20.0dp"
             android:layout_marginRight="20.0dp" />
         <Button
+            android:text="Multiplayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView1"
+            android:id="@+id/Multi"
+            android:layout_marginLeft="20.0dp"
+            android:layout_marginRight="20.0dp" />
+        <Button
             android:text="Settings"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

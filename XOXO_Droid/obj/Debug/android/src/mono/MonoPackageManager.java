@@ -68,8 +68,9 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		"XOXO_Droid.dll",
+		"Dolphins.Salaam.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_18";
+	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_21";
 }
