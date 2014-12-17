@@ -50,6 +50,7 @@
     <Compile Include="Activities\MenuActivity.cs" />
     <Compile Include="Activities\SettingsActivity.cs" />
     <Compile Include="Activities\SplashscreenActivity.cs" />
+    <Compile Include="Activities\AboutActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -73,6 +74,7 @@
     <AndroidResource Include="Resources\drawable\transparentButton.xml" />
     <AndroidResource Include="Resources\drawable\cross.png" />
     <AndroidResource Include="Resources\drawable\circle.png" />
+    <AndroidResource Include="Resources\layout\About.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>

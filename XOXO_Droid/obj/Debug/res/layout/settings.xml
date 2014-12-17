@@ -1,1 +1,20 @@
-<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="25px" android:minHeight="25px" xmlns:android="http://schemas.android.com/apk/res/android"><CheckBox android:text="Enable/Disable Music" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/Music" android:layout_marginTop="39.5dp" android:layout_centerVertical="true" android:layout_centerHorizontal="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentLeft="true" android:layout_marginLeft="37.1dp" /></RelativeLayout>
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <CheckBox
+        android:text="Enable/Disable Music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Music"
+        android:layout_marginTop="39.5dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="37.1dp" />
+</RelativeLayout>

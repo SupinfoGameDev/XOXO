@@ -1,1 +1,50 @@
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="25px" android:minHeight="25px" android:background="@drawable/background" xmlns:android="http://schemas.android.com/apk/res/android"><ImageView android:layout_marginTop="50.0dp" android:src="@drawable/banner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:id="@+id/imageView1" /><LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="25px" android:minHeight="25px" android:layout_marginTop="50.0dp"><Button android:text="Play" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/imageView1" android:id="@+id/Play" android:layout_marginLeft="20.0dp" android:layout_marginRight="20.0dp" /><Button android:text="Settings" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/imageView1" android:id="@+id/Settings" android:layout_marginTop="15.0dp" android:layout_marginLeft="20.0dp" android:layout_marginRight="20.0dp" /><Button android:text="About" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/imageView1" android:id="@+id/About" android:layout_marginTop="15.0dp" android:layout_marginLeft="20.0dp" android:layout_marginRight="20.0dp" /></LinearLayout></LinearLayout>
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@drawable/background">
+    <ImageView
+        android:layout_marginTop="50.0dp"
+        android:src="@drawable/banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/imageView1" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginTop="50.0dp">
+        <Button
+            android:text="Play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView1"
+            android:id="@+id/Play"
+            android:layout_marginLeft="20.0dp"
+            android:layout_marginRight="20.0dp" />
+        <Button
+            android:text="Settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView1"
+            android:id="@+id/Settings"
+            android:layout_marginTop="15.0dp"
+            android:layout_marginLeft="20.0dp"
+            android:layout_marginRight="20.0dp" />
+        <Button
+            android:text="About"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView1"
+            android:id="@+id/About"
+            android:layout_marginTop="15.0dp"
+            android:layout_marginLeft="20.0dp"
+            android:layout_marginRight="20.0dp" />
+    </LinearLayout>
+</LinearLayout>
