@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="XOXO_Droid.XOXO_Droid">
 	<uses-sdk />
-	<application android:label="XOXO_Droid">
-	</application>
+	<application android:label="XOXO_Droid"></application>
 	<uses-permission android:name="android.permission.RECORD_AUDIO" />
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 </manifest>

@@ -27,16 +27,21 @@ namespace XOXO_Droid
 				Player = MediaPlayer.Create (this, Resource.Raw.menu);
 			}
 
+			Button multi = FindViewById<Button> (Resource.Id.Multi);
+			multi.Click += (object sender, EventArgs e) => {
+				StartActivity(typeof(MultiActivity));
+			};
+
 			Button settings = FindViewById<Button> (Resource.Id.Settings);
 			settings.Click += (object sender, EventArgs e) => {
-				if(MusicEnabled)
+				if(MusicEnabled && Player != null)
 				{
 					Player.Pause();	
 				}
 				StartActivity(typeof(SettingsActivity));
 			};
 
-			var browser = new Dolphins.Salaam.SalaamBrowser();
+			/*var browser = new Dolphins.Salaam.SalaamBrowser();
 
 			Button multi = FindViewById<Button> (Resource.Id.Multi);
 			multi.Click += (object sender, EventArgs e) => {
@@ -52,7 +57,7 @@ namespace XOXO_Droid
 				builder.SetCancelable(false);
 				builder.SetPositiveButton("Continue", delegate { Finish(); });
 				builder.Show();
-			};
+			};*/
 
 			Button play = FindViewById<Button> (Resource.Id.Play);
 			play.Click += (object sender, EventArgs e) => {
@@ -73,6 +78,8 @@ namespace XOXO_Droid
 				}
 				if(Player != null){
 					Player.Start ();
+				} else {
+					Player = MediaPlayer.Create (this, Resource.Raw.menu);
 				}
 				MusicEnabled = musicPref;
 			}

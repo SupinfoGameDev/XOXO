@@ -14,11 +14,8 @@
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
     <AssemblyName>XOXO_Droid</AssemblyName>
-<<<<<<< HEAD
     <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
-=======
-    <TargetFrameworkVersion>v4.4</TargetFrameworkVersion>
->>>>>>> 8740a7198027af371359f9f0b0c31aac5b5245d6
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -47,7 +44,7 @@
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
     <Reference Include="Dolphins.Salaam">
-      <HintPath>Dolphins.Salaam.dll</HintPath>
+      <HintPath>lib\armeabi\Dolphins.Salaam.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -58,12 +55,13 @@
     <Compile Include="Activities\SettingsActivity.cs" />
     <Compile Include="Activities\SplashscreenActivity.cs" />
     <Compile Include="Activities\AboutActivity.cs" />
+    <Compile Include="Activities\MultiActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
-    <None Include="Dolphins.Salaam.XML" />
+    <None Include="lib\armeabi\Dolphins.Salaam.XML" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />
@@ -83,13 +81,17 @@
     <AndroidResource Include="Resources\drawable\cross.png" />
     <AndroidResource Include="Resources\drawable\circle.png" />
     <AndroidResource Include="Resources\layout\About.axml" />
+    <AndroidResource Include="Resources\layout\Multi.axml" />
+    <AndroidResource Include="Resources\layout\DeviceName.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Resources\layout\" />
     <Folder Include="Activities\" />
+    <Folder Include="lib\" />
+    <Folder Include="lib\armeabi\" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidNativeLibrary Include="Dolphins.Salaam.dll" />
+    <AndroidNativeLibrary Include="lib\armeabi\Dolphins.Salaam.dll" />
   </ItemGroup>
 </Project>

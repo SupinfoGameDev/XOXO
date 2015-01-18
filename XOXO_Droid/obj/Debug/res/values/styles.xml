@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-<resources><style name="Theme.Splash" parent="android:Theme"><item name="android:windowBackground">@drawable/splashscreen</item><item name="android:windowNoTitle">true</item></style><style name="Mono.Android.Theme.Splash" parent="android:Theme"><item name="android:windowNoTitle">true</item></style></resources>
-=======
 <resources><style name="Theme.Splash" parent="android:Theme"><item name="android:windowBackground">@drawable/splashscreen</item><item name="android:windowNoTitle">true</item></style></resources>
->>>>>>> 8740a7198027af371359f9f0b0c31aac5b5245d6

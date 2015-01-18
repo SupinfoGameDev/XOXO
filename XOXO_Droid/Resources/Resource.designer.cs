@@ -63,19 +63,16 @@ namespace XOXO_Droid
 			public const int Icon = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int monoandroidsplash = 2130837510;
+			public const int settings_icon = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int settings_icon = 2130837511;
+			public const int splashscreen = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int splashscreen = 2130837512;
+			public const int transparentButton = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int transparentButton = 2130837513;
-			
-			// aapt resource value: 0x7f02000a
-			public const int xoxo = 2130837514;
+			public const int xoxo = 2130837513;
 			
 			static Drawable()
 			{
@@ -90,12 +87,8 @@ namespace XOXO_Droid
 		public partial class Id
 		{
 			
-<<<<<<< HEAD
-			// aapt resource value: 0x7f07000f
-			public const int About = 2131165199;
-=======
-			// aapt resource value: 0x7f070016
-			public const int About = 2131165206;
+			// aapt resource value: 0x7f070017
+			public const int About = 2131165207;
 			
 			// aapt resource value: 0x7f07000a
 			public const int Button1 = 2131165194;
@@ -111,7 +104,6 @@ namespace XOXO_Droid
 			
 			// aapt resource value: 0x7f07000e
 			public const int Button5 = 2131165198;
->>>>>>> 8740a7198027af371359f9f0b0c31aac5b5245d6
 			
 			// aapt resource value: 0x7f07000f
 			public const int Button6 = 2131165199;
@@ -125,14 +117,20 @@ namespace XOXO_Droid
 			// aapt resource value: 0x7f070012
 			public const int Button9 = 2131165202;
 			
-			// aapt resource value: 0x7f070017
-			public const int Music = 2131165207;
+			// aapt resource value: 0x7f070015
+			public const int Multi = 2131165205;
+			
+			// aapt resource value: 0x7f07001d
+			public const int Music = 2131165213;
 			
 			// aapt resource value: 0x7f070014
 			public const int Play = 2131165204;
 			
-			// aapt resource value: 0x7f070015
-			public const int Settings = 2131165205;
+			// aapt resource value: 0x7f070016
+			public const int Settings = 2131165206;
+			
+			// aapt resource value: 0x7f07001c
+			public const int button_scan = 2131165212;
 			
 			// aapt resource value: 0x7f070009
 			public const int gridView1 = 2131165193;
@@ -140,25 +138,17 @@ namespace XOXO_Droid
 			// aapt resource value: 0x7f070013
 			public const int imageView1 = 2131165203;
 			
-<<<<<<< HEAD
-			// aapt resource value: 0x7f07000d
-			public const int Multi = 2131165197;
+			// aapt resource value: 0x7f07001b
+			public const int new_devices = 2131165211;
 			
-			// aapt resource value: 0x7f070010
-			public const int Music = 2131165200;
+			// aapt resource value: 0x7f070019
+			public const int paired_devices = 2131165209;
 			
-			// aapt resource value: 0x7f07000c
-			public const int Play = 2131165196;
-			
-			// aapt resource value: 0x7f07000e
-			public const int Settings = 2131165198;
-=======
 			// aapt resource value: 0x7f070008
 			public const int relativeLayout1 = 2131165192;
 			
 			// aapt resource value: 0x7f070000
 			public const int textView1 = 2131165184;
->>>>>>> 8740a7198027af371359f9f0b0c31aac5b5245d6
 			
 			// aapt resource value: 0x7f070001
 			public const int textView2 = 2131165185;
@@ -181,6 +171,12 @@ namespace XOXO_Droid
 			// aapt resource value: 0x7f070007
 			public const int textView8 = 2131165191;
 			
+			// aapt resource value: 0x7f07001a
+			public const int title_new_devices = 2131165210;
+			
+			// aapt resource value: 0x7f070018
+			public const int title_paired_devices = 2131165208;
+			
 			static Id()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -198,13 +194,19 @@ namespace XOXO_Droid
 			public const int About = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Game = 2130903041;
+			public const int DeviceName = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Menu = 2130903042;
+			public const int Game = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int Settings = 2130903043;
+			public const int Menu = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int Multi = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int Settings = 2130903045;
 			
 			static Layout()
 			{
@@ -238,8 +240,29 @@ namespace XOXO_Droid
 			// aapt resource value: 0x7f050001
 			public const int app_name = 2131034113;
 			
+			// aapt resource value: 0x7f050008
+			public const int button_scan = 2131034120;
+			
 			// aapt resource value: 0x7f050000
 			public const int hello = 2131034112;
+			
+			// aapt resource value: 0x7f050005
+			public const int none_found = 2131034117;
+			
+			// aapt resource value: 0x7f050004
+			public const int none_paired = 2131034116;
+			
+			// aapt resource value: 0x7f050002
+			public const int scanning = 2131034114;
+			
+			// aapt resource value: 0x7f050003
+			public const int select_device = 2131034115;
+			
+			// aapt resource value: 0x7f050007
+			public const int title_other_devices = 2131034119;
+			
+			// aapt resource value: 0x7f050006
+			public const int title_paired_devices = 2131034118;
 			
 			static String()
 			{
@@ -253,9 +276,6 @@ namespace XOXO_Droid
 		
 		public partial class Style
 		{
-			
-			// aapt resource value: 0x7f060001
-			public const int Mono_Android_Theme_Splash = 2131099649;
 			
 			// aapt resource value: 0x7f060000
 			public const int Theme_Splash = 2131099648;

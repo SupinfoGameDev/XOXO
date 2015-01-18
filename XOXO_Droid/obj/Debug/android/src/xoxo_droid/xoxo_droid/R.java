@@ -17,45 +17,66 @@ public final class R {
         public static final int cross=0x7f020003;
         public static final int grid=0x7f020004;
         public static final int icon=0x7f020005;
-        public static final int monoandroidsplash=0x7f020006;
-        public static final int settings_icon=0x7f020007;
-        public static final int splashscreen=0x7f020008;
-        public static final int transparentbutton=0x7f020009;
-        public static final int xoxo=0x7f02000a;
+        public static final int settings_icon=0x7f020006;
+        public static final int splashscreen=0x7f020007;
+        public static final int transparentbutton=0x7f020008;
+        public static final int xoxo=0x7f020009;
     }
     public static final class id {
-        public static final int About=0x7f07000e;
-        public static final int Button1=0x7f070002;
-        public static final int Button2=0x7f070003;
-        public static final int Button3=0x7f070004;
-        public static final int Button4=0x7f070005;
-        public static final int Button5=0x7f070006;
-        public static final int Button6=0x7f070007;
-        public static final int Button7=0x7f070008;
-        public static final int Button8=0x7f070009;
-        public static final int Button9=0x7f07000a;
-        public static final int Music=0x7f07000f;
-        public static final int Play=0x7f07000c;
-        public static final int Settings=0x7f07000d;
-        public static final int gridView1=0x7f070001;
-        public static final int imageView1=0x7f07000b;
-        public static final int relativeLayout1=0x7f070000;
+        public static final int About=0x7f070017;
+        public static final int Button1=0x7f07000a;
+        public static final int Button2=0x7f07000b;
+        public static final int Button3=0x7f07000c;
+        public static final int Button4=0x7f07000d;
+        public static final int Button5=0x7f07000e;
+        public static final int Button6=0x7f07000f;
+        public static final int Button7=0x7f070010;
+        public static final int Button8=0x7f070011;
+        public static final int Button9=0x7f070012;
+        public static final int Multi=0x7f070015;
+        public static final int Music=0x7f07001d;
+        public static final int Play=0x7f070014;
+        public static final int Settings=0x7f070016;
+        public static final int button_scan=0x7f07001c;
+        public static final int gridView1=0x7f070009;
+        public static final int imageView1=0x7f070013;
+        public static final int new_devices=0x7f07001b;
+        public static final int paired_devices=0x7f070019;
+        public static final int relativeLayout1=0x7f070008;
+        public static final int textView1=0x7f070000;
+        public static final int textView2=0x7f070001;
+        public static final int textView3=0x7f070002;
+        public static final int textView4=0x7f070003;
+        public static final int textView5=0x7f070004;
+        public static final int textView6=0x7f070005;
+        public static final int textView7=0x7f070006;
+        public static final int textView8=0x7f070007;
+        public static final int title_new_devices=0x7f07001a;
+        public static final int title_paired_devices=0x7f070018;
     }
     public static final class layout {
         public static final int about=0x7f030000;
-        public static final int game=0x7f030001;
-        public static final int menu=0x7f030002;
-        public static final int settings=0x7f030003;
+        public static final int devicename=0x7f030001;
+        public static final int game=0x7f030002;
+        public static final int menu=0x7f030003;
+        public static final int multi=0x7f030004;
+        public static final int settings=0x7f030005;
     }
     public static final class raw {
         public static final int menu=0x7f040000;
     }
     public static final class string {
         public static final int app_name=0x7f050001;
+        public static final int button_scan=0x7f050008;
         public static final int hello=0x7f050000;
+        public static final int none_found=0x7f050005;
+        public static final int none_paired=0x7f050004;
+        public static final int scanning=0x7f050002;
+        public static final int select_device=0x7f050003;
+        public static final int title_other_devices=0x7f050007;
+        public static final int title_paired_devices=0x7f050006;
     }
     public static final class style {
-        public static final int Mono_Android_Theme_Splash=0x7f060001;
         public static final int Theme_Splash=0x7f060000;
     }
 }

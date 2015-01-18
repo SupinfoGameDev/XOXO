@@ -1,30 +1,15 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.SelectDevice" />
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workbench ActiveDocument="XOXO_Droid\Activities\GameActvity.cs">
+﻿<Properties StartupItem="XOXO_Droid\XOXO_Droid.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.048cd0908291cb80" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="XOXO_Droid\Activities\MultiActivity.cs">
     <Files>
-      <File FileName="XOXO_Droid\Activities\GameActvity.cs" Line="22" Column="22" />
-=======
-  <MonoDevelop.Ide.Workbench>
-    <Files>
-      <File FileName="XOXO_Droid\Resources\values\Styles.xml" Line="1" Column="1" />
-      <File FileName="XOXO_Droid\Activities\SplashscreenActivity.cs" Line="1" Column="1" />
-      <File FileName="XOXO_Droid\Activities\MenuActivity.cs" Line="1" Column="1" />
-      <File FileName="XOXO_Droid\Activities\GameActvity.cs" Line="1" Column="1" />
-      <File FileName="XOXO_Droid\Resources\drawable\transparentButton.xml" Line="1" Column="1" />
-      <File FileName="XOXO_Droid\Activities\SettingsActivity.cs" Line="1" Column="1" />
+      <File FileName="XOXO_Droid\Activities\MultiActivity.cs" Line="64" Column="64" />
+      <File FileName="XOXO_Droid\Resources\values\Strings.xml" Line="1" Column="1" />
       <File FileName="XOXO_Droid\Properties\AndroidManifest.xml" Line="1" Column="1" />
-      <File FileName="XOXO_Droid\Activities\AboutActivity.cs" Line="1" Column="1" />
->>>>>>> 8740a7198027af371359f9f0b0c31aac5b5245d6
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-<<<<<<< HEAD
   <MonoDevelop.Ide.ItemProperties.XOXO__Droid MonoForAntroid.PreferredDevice="Nexus 4" />
-=======
-  <MonoDevelop.Ide.ItemProperties.XOXO__Droid MonoForAntroid.PreferredDevice="Nexus 5" />
->>>>>>> 8740a7198027af371359f9f0b0c31aac5b5245d6
 </Properties>
